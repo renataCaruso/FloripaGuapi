@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Floripa Guapi</title>
 
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
     <!-- FONTES GOOGLE -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -96,90 +98,110 @@
 
       .hero-section .container {
         position: relative;
+        top: 22vh;
+        left: 1vh;
+        padding-right: 5vh;
         z-index: 1;
       }
 
       .hero-section h1 {
         font-family: "Inter", sans-serif;
         font-weight: 400;
-        font-size: 30px;
-        position: relative;
-        top: 22vh;
-        left: 3%;
+        font-size: 1.1rem;
       }
 
       .hero-section #p1 {
         font-family: "Inter", sans-serif;
         font-weight: 700;
-        font-size: 35px;
+        font-size: 1.62rem;
         color: #ff7e00;
-        position: relative;
-        top: 20vh;
-        left: 3%;
       }
 
       .hero-section #p2 {
         font-family: "Poppins", sans-serif;
         font-weight: 300;
-        font-size: 15px;
+        font-size: 0.8rem;
         letter-spacing: 0.2vh;
         color: white;
+      }
+
+      .topo {
+        border: 0;
+        width: 55%;
+        height: 1px;
+        background-color: #ffffff;
         position: relative;
-        top: 19vh;
-        left: 3%;
+        /* top: 7vh; */
+        right: 22.7%;
+        /* left: 6vh; */
       }
 
       .btn-zap-div {
         background-color: black;
+        font-family: "Inter", sans-serif;
+        font-weight: 900;
+        font-size: 1em;
+        position: relative;
+        /* bottom: 15%; */
+        /* right: 5vh; */
+        /* display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center; */
+        /* margin: 10%; */
+        padding-right: 27vw;
+        /* width: 40vw; */
+        /* height: 8vh; */
       }
 
       .btn-zap-div .btn-zap {
         background-color: white;
         font-family: "Inter", sans-serif;
         font-weight: 900;
-        font-size: 14px;
+        font-size: 1em;
         position: relative;
-        bottom: 5vh;
-        left: 290px;
+        bottom: 6vh;
+        left: 15vw;
+        /* padding-right: 100%; */
         display: flex;
-        text-align: auto;
+        text-align: center;
         justify-content: center;
         align-items: center;
-        width: 650px;
-        height: 8vh;
-        color: black;
-        border-color: black;
+        color: rgb(0, 0, 0);
       }
 
-      .btn-zap a {
+      .btn-zap p{
+      padding-top: 2vh;
+      }
+
+      /* .btn-zap-div .btn-zap p {
+        
+        color: rgb(157, 26, 26);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: black;
+        text-decoration: none;
+      } */
+
+      .bi.bi-whatsapp {
+        padding: 10px;
+        font-size: 24px;
         color: rgb(17, 186, 40);
-        color: black;
         display: flex;
         justify-content: center;
         align-items: center;
         border-color: black;
         text-decoration: none;
       }
-
-      .bi.bi-whatsapp {
-        padding: 10px;
+      .btn-zap-div .btn-zap a .bi.bi-whatsapp:hover {
+        background-color: rgb(0, 0, 0);
       }
 
       .btn-zap:hover {
-        background-color: rgb(17, 186, 40);
-      }
-      .btn-zap a:hover {
-        color: black;
-      }
-
-      hr {
-        border: 0;
-        width: 75%;
-        height: 1px;
-        background-color: #ffffff;
-        position: relative;
-        top: 20vh;
-        right: 9.4%;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border-color: rgb(17, 186, 40);
       }
 
       .products-section {
@@ -325,7 +347,7 @@
         position: absolute;
         top: 65vh;
         } */
-
+/* 
         .hero-section h1 {
           font-family: "Inter", sans-serif;
           font-size: 17px;
@@ -340,6 +362,172 @@
         .hero-section #p2 {
           font-family: "Poppins", sans-serif;
           font-size: 12px;
+        } */
+
+        /* .btn-zap-div .btn-zap{
+          background-color: white;
+        font-family: "Inter", sans-serif;
+        font-weight: 900;
+        position: relative;
+        bottom: 30px;
+        left: 30px;
+        width: 80%;
+        height: 8vh;
+        color: rgb(0, 0, 0);
+       
+      }
+
+      .btn-zap p{
+       position: relative;
+       top: 30%;
+      } */
+
+        /* .btn-zap-div .btn-zap {
+        background-color: white;
+        font-family: "Inter", sans-serif;
+        font-weight: 900;
+        font-size: 14px;
+        position: relative;
+        bottom: 5vh;
+        left: 290px;
+        display: flex;
+        text-align: auto;
+        justify-content: center;
+        align-items: center;
+        width: 650px;
+        height: 8vh;
+        color: black;
+        border-color: black;
+      }
+
+      .btn-zap a {
+        color: rgb(17, 186, 40);
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: black;
+        text-decoration: none;
+      }
+
+      .bi.bi-whatsapp {
+        padding: 10px;
+        font-size: 21px;
+        color: rgb(17, 186, 40);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: black;
+        text-decoration: none;
+      }
+      .btn-zap-div .btn-zap a .bi.bi-whatsapp:hover{
+        color: black;
+      }
+
+      .btn-zap:hover {
+        background-color: rgb(17, 186, 40);
+      }
+      .btn-zap a:hover {
+        color: black;
+      } */
+
+        .about-section .container {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .about-section .container .card {
+          position: relative;
+          width: 600px;
+          height: 350px;
+          margin: 20px;
+          display: flex;
+          transition: 0.05s;
+          justify-content: flex-start;
+          align-items: center;
+          background: linear-gradient(45deg, #1a2f3f, #7094ce);
+        }
+        .about-section .container .card img {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translate(-50%);
+          height: 380px;
+          transition: 0.5s;
+        }
+        .about-section .container .card:hover img {
+          left: 70%;
+          height: 400px;
+        }
+        .about-section .container .card .content {
+          position: relative;
+          width: 50%;
+          left: 20%;
+          padding: 20px 20px 20px 40px;
+          opacity: 0;
+          visibility: hidden;
+          transition: 0.5s;
+        }
+        .about-section .container .card:hover .content {
+          left: 0;
+          opacity: 1;
+          visibility: visible;
+        }
+        .about-section .container .card .content h2 {
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 2.2em;
+          line-height: 1em;
+        }
+        .about-section .container .card .content p {
+          color: #f0f0f0;
+          letter-spacing: 1px;
+        }
+        .about-section .container .card .content a {
+          position: relative;
+          color: #111;
+          background: #fff;
+          display: inline-block;
+          padding: 10px;
+          text-decoration: none;
+          font-weight: 700;
+        }
+
+        @media (max-width: 991px) {
+          .about-section .container .card {
+            width: auto;
+            max-width: 600px;
+            align-items: flex-start;
+          }
+          .about-section .container .card:hover {
+            height: 600px;
+          }
+          .about-section .container .card:hover img {
+            left: 50%;
+            height: 350px;
+          }
+          .about-section .container .card .content {
+            width: 100%;
+            left: 0;
+            padding: 40px;
+          }
+        }
+        @media (max-width: 767px) {
+          .about-section .container {
+            flex-direction: column;
+          }
+          .about-section .container .card {
+            margin: 40px 20px;
+          }
+        }
+        @media (max-width: 420px) {
+          .about-section .container .card .content {
+            padding: 30px;
+          }
+          .about-section .container .card:hover img {
+            height: 300px;
+          }
         }
       }
     </style>
@@ -410,7 +598,7 @@
       <div class="container">
         <h1>Transformando sonhos em móveis</h1>
         <p id="p1">Descubra a excelência da marcenaria personalizada</p>
-        <hr />
+        <hr class="topo" />
 
         <p id="p2">
           Crie ambientes únicos e acolhedores com os móveis artesanais
@@ -426,9 +614,8 @@
         href="https://wa.me/5521973231909"
         class="btn btn-primary btn-lg btn-block btn-zap"
       >
-        <a class="bi bi-whatsapp"
-          >Fale conosco, faça um orçamento agora mesmo!</a
-        >
+        <a class="bi bi-whatsapp"></a>
+        <p>Fale conosco, faça um orçamento agora mesmo!</p>
       </button>
     </div>
 
@@ -622,7 +809,24 @@
     </section>
 
     <!-- About Section -->
+
     <section class="about-section py-5">
+      <div class="container">
+        <div class="card">
+          <div class="content">
+            <h2>Floriano</h2>
+            <p>
+              Lima, Marceneiro com mais de 10 anos de experiência e serviços de
+              Excelência.
+            </p>
+            <a href="portfolio.html">Portfólio</a>
+          </div>
+          <img src="assets/floripa.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="about-section py-5">
       <div class="container">
         <h2 class="text-center mb-5">Quem Somos</h2>
         <p class="text-center">Conheça nossas Soluções</p>
@@ -650,7 +854,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Map Section -->
     <section class="map-section py-5">
